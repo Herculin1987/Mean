@@ -1,0 +1,35 @@
+<section class="main-section">
+
+    <h2 class="page-title">Insert your phone#</h2>
+
+    <div class="bills-wrapper" ng-controller="BillController">
+        <div class="row insert-top-row">
+
+            <input type="text" class="form-control phone-number" ng-model="phone_number" placeholder="Phone number">
+
+            <button type="button" class="btn btn-primary btn-insert-number" ng-click="insert_number()">Enter ></button>
+
+        </div>
+
+        <div class="row insert-bottom-row">
+
+            <div class="btn-group pull-left">
+                <button type="button" class="btn btn-default" ng-click="numbers(1)">1</button>
+                <button type="button" class="btn btn-default" ng-click="numbers(2)">2</button>
+                <button type="button" class="btn btn-default" ng-click="numbers(3)">3</button>
+                <button type="button" class="btn btn-default" ng-click="numbers(4)">4</button>
+                <button type="button" class="btn btn-default" ng-click="numbers(5)">5</button>
+                <button type="button" class="btn btn-default" ng-click="numbers(6)">6</button>
+                <button type="button" class="btn btn-default" ng-click="numbers(7)">7</button>
+                <button type="button" class="btn btn-default" ng-click="numbers(8)">8</button>
+                <button type="button" class="btn btn-default" ng-click="numbers(9)">9</button>
+                <button type="button" class="btn btn-default" ng-click="numbers(0)">0</button>
+            </div>
+
+            <button type="button" class="btn btn-primary pull-right" ng-click="delete_number()">< Delete</button>
+
+        </div>
+
+    </div>
+
+</section>

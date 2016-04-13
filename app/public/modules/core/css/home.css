@@ -1,0 +1,49 @@
+html {
+    min-height: 100%;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.main-section {
+    margin-bottom: 1000px;
+}
+
+.page-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.start-wraper {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.insert-top-row {
+    width: 280px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.phone-number {
+    float: left;
+    width: 200px;
+}
+
+.btn-insert-number {
+    float: right;
+}
+
+.insert-bottom-row {
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.bill-row {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.thanks-title {
+    margin-top: 100px;
+}
